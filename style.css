@@ -1,19 +1,22 @@
-
+/* color of the links according to their state of use */
 a:link {  color: #ddf8e8;  }
 a:visited {    color: #6874e8;  }
 a:hover {    color: #d90368;  }
 a:active {    color: #69385c;  }
 
-
+/* a centered class for diefferent html properties to follow */
 .centered {
     text-align: center
   }
 
+/* the background image color */
 .background {
       height: 500px;
       background-color: #b68cb8;/* For browsers that do not support gradients */
       background-image: linear-gradient(to right, #b68cb8, #69385c);
 }
+
+/* a text formatting class setting multiple properties */
 .flex-text {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #69385c;
@@ -28,11 +31,11 @@ a:active {    color: #69385c;  }
   h2 {
       text-align: center;
   }
-
+/* rounded image border */
   img {
     border-radius: 75%;
   }
-
+/* a class for segments of the html to follow certain formatting properties */
 .info {
     background-color: #69385c;
     color: #ddf8e8;
@@ -41,7 +44,7 @@ a:active {    color: #69385c;  }
     border: 5px solid #6874e8;
     border-radius: 5px;
 }
-
+/* various formatting rules */
 hr {
     display: block;
     margin-top: 0.5em;
